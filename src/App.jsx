@@ -83,10 +83,6 @@ function App() {
             <p>Developed a comprehensive digital banking application using React.js for frontend and Java Spring Boot for backend</p>
           </div>
           <div className="project">
-            <h3>Loan Management System</h3>
-            <p>Developed a loan management system using React.js as frontend and Java Spring Boot as backend</p>
-          </div>
-          <div className="project">
             <h3>Hostel Management App</h3>
             <p>Developed a mobile application using Mobile Application Development</p>
           </div>

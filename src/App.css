@@ -6,29 +6,29 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f5f5f5;
-  color: #333;
+  background-color: #0d1321;
+  color: #f2f2f2;
 }
 
 .resume {
   max-width: 900px;
   margin: 20px auto;
-  background-color: white;
+  background-color: #111d36;
   padding: 40px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.5);
   line-height: 1.8;
 }
 
 .header {
   text-align: center;
-  border-bottom: 3px solid #2c3e50;
+  border-bottom: 3px solid #5a9cff;
   padding-bottom: 20px;
   margin-bottom: 30px;
 }
 
 .header h1 {
   font-size: 2.5em;
-  color: #2c3e50;
+  color: #e7f2ff;
   margin-bottom: 15px;
   letter-spacing: 1px;
 }
@@ -38,7 +38,7 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 10px;
   font-size: 0.95em;
-  color: #555;
+  color: #c8d6ff;
 }
 
 .contact-info div {
@@ -46,13 +46,13 @@ body {
 }
 
 .contact-info a {
-  color: #3498db;
+  color: #7ac7ff;
   text-decoration: none;
   transition: color 0.3s;
 }
 
 .contact-info a:hover {
-  color: #2980b9;
+  color: #4ea3ff;
   text-decoration: underline;
 }
 
@@ -62,16 +62,16 @@ body {
 
 .section h2 {
   font-size: 1.4em;
-  color: #2c3e50;
+  color: #d9e6ff;
   margin-bottom: 15px;
-  border-bottom: 2px solid #3498db;
+  border-bottom: 2px solid #58b5ff;
   padding-bottom: 8px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
 
 .section p {
-  color: #555;
+  color: #c9d9ff;
   margin-bottom: 10px;
   text-align: justify;
 }
@@ -81,30 +81,30 @@ body {
   width: 100%;
   border-collapse: collapse;
   margin-top: 15px;
-  background-color: #f9f9f9;
+  background-color: #162040;
 }
 
 .qualification-table th {
-  background-color: #3498db;
+  background-color: #1d3f6b;
   color: white;
   padding: 12px;
   text-align: left;
   font-weight: 600;
-  border: 1px solid #2c3e50;
+  border: 1px solid #2f5a95;
 }
 
 .qualification-table td {
   padding: 12px;
   border: 1px solid #ddd;
-  color: #555;
+  color: #d3d9ff;
 }
 
 .qualification-table tbody tr:nth-child(even) {
-  background-color: #f0f0f0;
+  background-color: #162a48;
 }
 
 .qualification-table tbody tr:hover {
-  background-color: #e8e8e8;
+  background-color: #1f3156;
 }
 
 /* Skills */
@@ -116,13 +116,13 @@ body {
 }
 
 .skill-category h3 {
-  color: #2c3e50;
+  color: #e7efff;
   margin-bottom: 8px;
   font-size: 1.1em;
 }
 
 .skill-category p {
-  color: #666;
+  color: #d1d9ff;
   margin: 0;
 }
 
@@ -135,7 +135,7 @@ body {
 }
 
 .project {
-  background-color: #f9f9f9;
+  background-color: #172743;
   padding: 15px;
   border-left: 4px solid #3498db;
   border-radius: 4px;
@@ -144,17 +144,17 @@ body {
 
 .project:hover {
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 14px 30px rgba(52, 145, 255, 0.18);
 }
 
 .project h3 {
-  color: #2c3e50;
+  color: #e8efff;
   margin-bottom: 8px;
   font-size: 1.1em;
 }
 
 .project p {
-  color: #666;
+  color: #d4dbff;
   margin: 0;
   font-size: 0.95em;
 }
@@ -168,20 +168,20 @@ body {
 }
 
 .internship {
-  background-color: #f0f8ff;
+  background-color: #172743;
   padding: 15px;
   border-left: 4px solid #27ae60;
   border-radius: 4px;
 }
 
 .internship h3 {
-  color: #2c3e50;
+  color: #e8efff;
   margin-bottom: 8px;
   font-size: 1.1em;
 }
 
 .internship p {
-  color: #666;
+  color: #d4dbff;
   margin: 0;
   font-size: 0.95em;
 }
@@ -194,19 +194,19 @@ body {
 
 .section ul li {
   margin-bottom: 10px;
-  color: #666;
+  color: #d4dbff;
 }
 
 /* Declaration */
 .declaration {
-  background-color: #f5f5f5;
+  background-color: #172743;
   padding: 20px;
   border-radius: 4px;
   border: 1px solid #ddd;
 }
 
 .declaration p {
-  color: #555;
+  color: #d4dbff;
   font-size: 0.95em;
 }
 
@@ -214,7 +214,7 @@ body {
   margin-top: 20px;
   font-weight: 600;
   text-align: right;
-  color: #2c3e50;
+  color: #e7f0ff;
 }
 
 /* Print Styles */
